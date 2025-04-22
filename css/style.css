@@ -177,3 +177,13 @@ button:hover,.check:hover,label:hover{
     letter-spacing: 0px;
   }
 }
+@media screen and (max-Width:340px){
+  .password-box h6{
+    font-size: 12px;
+    margin-top: 26px;
+  }
+  .password-box{
+    padding: 0px 2px;
+  }
+
+}
