@@ -1,0 +1,179 @@
+
+@font-face {
+  font-family: custom-font;
+  src: url(../font/yekan/Yekan.woff) format(woff),
+    url(../font/yekan/Yekan.woff2) format(woff2),
+    url(../font/yekan/Yekan.ttf) format(ttf);
+}
+@font-face {
+  font-family: "custom-font2";
+  src: url(../font/vazir/Vazir-Bold.woff) format(woff),
+    url(../font/vazir/Vazir-Bold.woff2) format(woff2);
+}
+* {
+  box-sizing: border-box;
+  font-family: custom-font;
+}
+:root {
+  --property-color: #191919;
+}
+body{
+  background-color: var(--property-color);
+  margin: 0;
+  padding: 0;
+}
+.hidden {
+  display: none;
+}
+section{
+  margin: auto;
+  margin-top: 40px;
+  width: 450px;
+  height: auto;
+}
+section h1{
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.password-box{
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  direction: rtl;
+  padding: 0px 30px;
+  border-radius: 10px;
+}
+.password-box p{
+  color: #999;
+}
+
+.password-box button{
+  width: 50px;
+  height: 50px;
+  font-size: 29px;
+  color: #888;
+  background-color: #333;
+  border: 1px solid #333;
+  padding-top: 0px;
+}
+.password-box h6{
+  font-size: 22px;
+  height: 0px;
+  margin-top: 18px;
+      font-family: cursive;
+}
+.order-password-box{
+  width: 450px;
+  height: auto;
+  background-color: #333;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 30px 30px;
+}
+.range-box input{
+  width: 100%;
+}
+
+.header-range{
+  display: flex;
+  justify-content: space-between;
+color: #fff;
+}
+.header-range label{
+  margin-top: 18px;
+  font-size: 17px;
+  color: #aaa;
+}
+.header-range p{
+  color: #039be0;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 25px;
+  font-family: 'FontAwesome';
+}
+.check-box{
+  direction: rtl;
+  color: #ffffff;
+}
+.power-pass-box{
+  background-color: #191919;
+  width: 100%;
+  height: auto;
+  color: #aaa;
+  direction: rtl;
+  padding: 1px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.powers {
+  margin-top: 18px;
+  width: 20%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.powers>div{
+  width: 14px;
+  border-radius: 6px;
+  height: 28px;
+  border: 1px solid #444;
+}
+.create-btn{
+  font-size: 20px;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 19px;
+  color: #ffffff;
+  background-color: #005c86;
+  border: 1px solid #005c86;
+}
+.very-bad{
+  background-color: #f33117;
+}
+.bad{
+  background-color: #FF8F12;
+}
+.good{
+  background-color: #87fc2c;
+}
+.very-good{
+  background-color: #26f726;
+}
+button:hover,.check:hover,label:hover{
+  cursor: pointer;
+  filter: brightness(90%);
+}
+@media screen and (max-Width:510px) {
+  section{
+    width: 350px;
+  }
+  .order-password-box{
+    width: 350px;
+  }
+}
+@media screen and (max-Width:400px){
+  section{
+    width: 300px;
+  }
+  .order-password-box{
+    width: 300px;
+  }
+  .powers{
+    width: 30%;
+  }
+  .password-box h6{
+    font-size: 14px;
+    margin-top: 23px;
+  }
+  .password-box{
+    padding: 0px 5px;
+  }
+  section h1{
+    letter-spacing: 0px;
+  }
+}
