@@ -155,6 +155,14 @@ button:hover,.check:hover,label:hover{
   .order-password-box{
     width: 350px;
   }
+  
+  .powers{
+    width: 30%;
+  }
+  .password-box h6{
+    font-size: 14px;
+    margin-top: 23px;
+  }
 }
 @media screen and (max-Width:400px){
   section{
